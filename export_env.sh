@@ -4,7 +4,7 @@ set -o errexit
 set -o pipefail
 set -o nounset
 
-export PATCH_APPS=youtube,youtube_music
+export PATCH_APPS=tiktok
 export BUILD_EXTENDED=True
 export EXCLUDE_PATCH_YOUTUBE=custom-branding,debugging
 export EXCLUDE_PATCH_TWITCH=debug-mode
