@@ -5,6 +5,7 @@ set -o pipefail
 set -o nounset
 
 export PATCH_APPS=tiktok
+export TIKTOK_VERSION=27.8.3
 export BUILD_EXTENDED=True
 export EXCLUDE_PATCH_YOUTUBE=custom-branding,debugging
 export EXCLUDE_PATCH_TWITCH=debug-mode
